@@ -2,15 +2,84 @@ import React from "react";
 import Back from "../../utils/backBtn";
 
 
+
+
+
+export const Projectos = () => {
+  return (
+    <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="text-4xl font-bold title-font mb-4 text-black tracking-widest">SOME PROJECTS</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">aca algo sobre los projectos y qsy </p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 lg:w-1/2">
+          <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200"/>
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Landig Page example</h2>
+              <h3 class="text-gray-500 mb-3">UI desing - Material UI - Javascript</h3>
+              <p class="mb-4">Some description blablabla Some description blablabla Some description blablabla</p>
+              <a class="text-gray-500 hover:text-gray-900">Go to live example</a>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200"/>
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Landig Page example</h2>
+              <h3 class="text-gray-500 mb-3">UI desing - Material UI - Javascript</h3>
+              <p class="mb-4">Some description blablabla Some description blablabla Some description blablabla</p>
+              <a class="text-gray-500 hover:text-gray-900">Go to live example</a>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200"/>
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Landig Page example</h2>
+              <h3 class="text-gray-500 mb-3">UI desing - Material UI - Javascript</h3>
+              <p class="mb-4">Some description blablabla Some description blablabla Some description blablabla</p>
+              <a class="text-gray-500 hover:text-gray-900">Go to live example</a>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200"/>
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Landig Page example</h2>
+              <h3 class="text-gray-500 mb-3">UI desing - Material UI - Javascript</h3>
+              <p class="mb-4">Some description blablabla Some description blablabla Some description blablabla</p>
+              <a class="text-gray-500 hover:text-gray-900">Go to live example</a>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+  
+  )};
+
+
+
+
 const Experiencia = () => {
     return(
       <div>
-     
+       
         
         <section class=" bg-white  body-font">
           
         <div class="w-full px-5 py-24 mx-auto flex flex-wrap">
         <Back/>
+        <div class="flex flex-col text-center w-full mb-10">
+        <h1 class="text-4xl font-bold title-font mb-4 text-black tracking-widest">EXPERIENCE</h1>
+      </div>
           <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
               <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -136,8 +205,9 @@ const Experiencia = () => {
           </div>
         </div>
       </section>
-
+      <Projectos/>
       </div>
     )}
 
     export default Experiencia;
+    
